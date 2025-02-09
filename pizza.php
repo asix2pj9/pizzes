@@ -25,7 +25,7 @@
 	      exit(0);
           }
 	  echo "<br>";
-	  echo "Autor: dacomo"."<br>";
+	  echo "Autor aplicatiu: dacomo"."<br>";
      ?>
      </body>
 </html>
