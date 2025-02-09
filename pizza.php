@@ -27,6 +27,8 @@
 	  echo "<br>";
 	  echo "Autor aplicatiu: dacomo"."<br>";
      ?>
-     <button onclick="location.href='pizza.html'" type="button">Retorna a pizza.html</button>
+     <button onclick="location.href='pizza.html'" type="button">
+          Retorna al formulari de selecció d'ingredients
+     </button>
      </body>
 </html>
