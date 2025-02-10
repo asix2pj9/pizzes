@@ -25,7 +25,8 @@
 	       # exit(0);
           }
 	  echo "<br>";
-	  echo "Autor aplicatiu: dacomo"."<br>";
+	  echo "Autor aplicatiu: asix2pj9"."<br>";
+	  echo "<br>";
      ?>
      <a href="pizza.html">Retorna al formulari de selecció d'ingredients</a>
      </body>
