@@ -27,6 +27,6 @@
 	  echo "<br>";
 	  echo "Autor aplicatiu: dacomo"."<br>";
      ?>
-     <a href="pizza.html">Retorna al formulari</a>
+     <a href="pizza.html">Retorna al formulari de selecció d'ingredients</a>
      </body>
 </html>
