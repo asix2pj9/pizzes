@@ -26,6 +26,7 @@
           }
 	  echo "<br>";
 	  echo "Autor aplicatiu: asix2pj9"."<br>";
+	  echo date("l jS \of F Y h:i:s A")."<br>";
 	  echo "<br>";
      ?>
      <a href="pizza.html">Retorna al formulari de selecció d'ingredients</a>
