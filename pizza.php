@@ -25,7 +25,8 @@
 	      exit(0);
 	}
 	echo "<br>";
-	echo "Autor: asix2"."<br>";
+	echo "Autor: dacomo"."<br>";
      ?>
+     <a href="pizza.html">Torna a pizza.html</a><br>
      </body>
 </html>
