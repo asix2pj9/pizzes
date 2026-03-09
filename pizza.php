@@ -1,7 +1,7 @@
 <html>
      <head>
           <meta content="text/html; charset=UTF-8" http-equiv="content-type">
-          <title>FES LA TEVA PIZZA</title>
+          <title>FES LA TEVA PIZZA - Prova competencial pj9f4a12</title>
      </head>
      <body>
      <?php
@@ -23,8 +23,7 @@
 	      echo "El preu és $pvp € (IVA inclòs)<br>";
 	}
 	echo "<br>";
-	echo "Autor: dacomo"."<br>";
      ?>
-     <a href="pizza.html">Torna a pizza.html</a><br>
+     <a href="index.html">Torna a index.html</a><br>
      </body>
 </html>
