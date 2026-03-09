@@ -14,7 +14,7 @@ spec: #spec del Deployment
           spec: #spec dels Pods
                containers:
                - name: cpizza # Nom base dels contenidors dins del Pod
-                 image: asix2pj9/ipizza:1.0 # Imatge per crear contenidors
+                 image: <nom_usuari_dockerhub>/ipizza:1.5 # Imatge per crear contenidors
                  ports:
                  - containerPort: 80 # Port pel qual s'exposa l'aplicació.
 

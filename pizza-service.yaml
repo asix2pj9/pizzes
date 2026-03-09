@@ -9,4 +9,4 @@ spec:
      ports:
      - port: 4000 # Port del Service  que es redirigirà cap el port dels Pods.
        targetPort: 80 # Port pel qual els Pods exposen l'aplicació. 
-       nodePort: 40000 # Port creat dins de la màquina que es redirigirà cap el port del Service.
+       nodePort: 30000 # Port creat dins de la màquina que es redirigirà cap el port del Service.
