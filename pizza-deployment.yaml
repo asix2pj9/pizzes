@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment # Especificica el recurs a desplegar: Deployment, Service , Pod, etc.
+metadata:
+     name: depl-pizza # Nom identificador del Deployment i nom base dels Pods en el sistema
+spec: #spec del Deployment
+     replicas: 3 # Quantitat de Pods a crear quan es fa el desplegament
+     selector:
+          matchLabels:
+               app: pods-pizza # Etiqueta per selecciona els Pods que seran gestionats per aquest Deployment . 
+     template: # Configuració dels Pods
+          metadata:
+               labels:
+                    app: pods-pizza # Etiquetes assignades als Pods que formaran part del Deployment.
+          spec: #spec dels Pods
+               containers:
+               - name: cpizza # Nom base dels contenidors dins del Pod
+                 image: asix2pj9/ipizza:1.0 # Imatge per crear contenidors
+                 ports:
+                 - containerPort: 80 # Port pel qual s'exposa l'aplicació.
+

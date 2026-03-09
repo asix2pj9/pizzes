@@ -1,0 +1,18 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress #Especificica el recurs a desplegar: Deployment, Service , Pod, etc.
+metadata:
+     name: proxy-pizza # Nom del service del recurs tipus ingress a crear
+     annotations:
+          spec.ingressClassName: "nginx"
+spec:
+     rules:
+     - host: pizza.fjeclot.net #Nom i domini amb el qual es pot accedir des de l'exterior
+       http:
+            paths:
+            - path: /
+              pathType: Prefix
+              backend:
+                   service:
+                        name: serv-pizza # Nom del service del qual ha de fer de  reverse-proxy
+                        port:
+                             number: 4000 # El mateix número que - port dins ppv-service.yaml    
