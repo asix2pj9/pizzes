@@ -3,7 +3,7 @@ kind: Deployment # Especificica el recurs a desplegar: Deployment, Service , Pod
 metadata:
      name: depl-pizza # Nom identificador del Deployment i nom base dels Pods en el sistema
 spec: #spec del Deployment
-     replicas: 3 # Quantitat de Pods a crear quan es fa el desplegament
+     replicas: 4 # Quantitat de Pods a crear quan es fa el desplegament
      selector:
           matchLabels:
                app: pods-pizza # Etiqueta per selecciona els Pods que seran gestionats per aquest Deployment . 
